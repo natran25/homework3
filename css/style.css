@@ -54,6 +54,11 @@ table{
   border-radius: 10px;
 }
 
+table, th, td {
+  border-bottom: 2px;
+  border-color: #000000;
+}
+
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
@@ -61,7 +66,6 @@ table{
   padding: 10px 0px;
   text-transform: uppercase;
   text-align: center;
-
 }
 
 .rowhead{
