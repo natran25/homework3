@@ -105,7 +105,7 @@ tbody tr:last-child th:first-child {
   border-bottom-left-radius: 10px;
 }
 
-tbody tr:first-child th:last-child {
+tbody tr:last-child th:last-child {
   border-bottom-right-radius: 10px;
 }
 
