@@ -90,7 +90,11 @@ tr:hover{
 }
 
 tr:last-child td {
-  border-bottom: 0;
+  border-bottom: 0px;
+}
+
+tr:last-child th{
+  border-bottom: 0px;
 }
 
 *:focus{
