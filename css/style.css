@@ -101,7 +101,7 @@ tr:first-child td {
   border-top: 2px solid #000000;
 }
 
-tr:first-child th{
+tbody tr:first-child th:first-child {
   border-top: 2px solid #000000;
 }
 
