@@ -64,8 +64,8 @@ table{
 }
 
 .rowhead{
-  border: 2px;
-  border-color: #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 td{
@@ -87,6 +87,10 @@ tr:nth-child(odd){
 
 tr:hover{
   background: rgba(126, 8, 32, .25);
+}
+
+tr:last-child td {
+  border-bottom: 0;
 }
 
 *:focus{
