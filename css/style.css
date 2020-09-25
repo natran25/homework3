@@ -91,7 +91,13 @@ tr:hover{
   border-color: #417243;
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-radius: 50px;
+}
+
+thead tr:last-child th:last-child{
+  border-radius: 50px;
+}
 
 footer{
   width:100%;
@@ -100,5 +106,3 @@ footer{
   color: #FFFFFF;
   min-height: 75px;
 }
-
-
