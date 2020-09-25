@@ -55,11 +55,6 @@ table{
   border-collapse: collapse;
 }
 
-th, td {
-  border-bottom: 2px;
-  border-color: #000000;
-}
-
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
