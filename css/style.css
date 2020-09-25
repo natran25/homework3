@@ -52,14 +52,16 @@ table{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  text-align: center;
+
 }
 
 .rowhead{
@@ -69,7 +71,7 @@ table{
 
 td{
   text-align: center;
-  border-top: 2px;
+  border-bottom: : 2px;
   border-color: #000000;
   padding: 10px;
 }
@@ -99,11 +101,11 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px;
 }
 
-thead tr:last-child th:first-child {
+thead tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
 
-thead tr:first-child th:last-child {
+thead tr:first-child td:last-child {
   border-bottom-right-radius: 10px;
 }
 
