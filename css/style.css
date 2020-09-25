@@ -70,14 +70,12 @@ table{
 
 td{
   text-align: center;
-  border-bottom: 2px;
-  border-color: #000000;
+  border-bottom: 2px solid #000000;
   padding: 10px;
 }
 
 th {
-  border-bottom: 2px;
-  border-color: #000000;
+  border-bottom: 2px solid #000000;
 }
 
 tr:nth-child(even){
